@@ -46,8 +46,8 @@ html{
    margin: 2rem;
    padding: 1rem;
    font-size: 1.2rem;
-   box-shadow: 0 .1rem .4rem black;
-   border: 1px solid black;
+  /* box-shadow: 0 .1rem .4rem black;*/
+   border: 1.5px solid black;
    overflow-y: auto;
 }
 
@@ -67,21 +67,22 @@ html{
 
 .btn{
      padding: .5rem;
-     background-color: #7e1111;
+     background-color: greenyellow;
      margin-right: 1rem;
-     color: #fffffc;
+     color: black;
      letter-spacing: .1rem;
      font-size: 1rem;
      border-radius: .2rem;
+     border: black solid 0.5px;
      cursor: pointer;
      outline: none;
-     box-shadow: 0 .4rem .4rem black;
+     /*box-shadow: 0 .4rem .4rem black;*/
      transition: all .3s;
 }
 
 .btn:hover{
-     background-color: #7e1111d0;
-     box-shadow: 0 .1rem .1rem black;
+     background-color: green;
+     /*box-shadow: 0 .1rem .1rem black;*/
 }
 
 
