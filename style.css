@@ -8,11 +8,15 @@ html{
     font-size: 1.1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+body{
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
 
 .toolbar{
     display: grid;
-    grid-template-columns:  repeat(auto-fit,minmax(20px,40px));
-    background-color: black;
+    grid-template-columns:  repeat(auto-fit,minmax(30px,60px));
+    /*background-color: black;
     color: rgb(0, 0, 0);
     /*grid-gap: 1rem;*/
     padding: 1rem;
@@ -21,7 +25,7 @@ html{
 }
 
 .tool-items{
-    background-color: black;
+    background-color : black ;
      padding-top: .6rem;
      padding-bottom:.6rem;
     cursor: pointer;
@@ -41,14 +45,16 @@ html{
 
 
 .editor{
-   width:70vw;
-   height: 50vh;
+   width:90vw;
+   height: 68vh;
    margin: 2rem;
    padding: 1rem;
    font-size: 1.2rem;
   /* box-shadow: 0 .1rem .4rem black;*/
    border: 1.5px solid black;
    overflow-y: auto;
+   background-color: white;
+   box-shadow: grey 1px;
 }
 
 .getcontent{
@@ -67,9 +73,9 @@ html{
 
 .btn{
      padding: .5rem;
-     background-color: greenyellow;
+     background-color: black;
      margin-right: 1rem;
-     color: black;
+     color: white;
      letter-spacing: .1rem;
      font-size: 1rem;
      border-radius: .2rem;
@@ -81,7 +87,7 @@ html{
 }
 
 .btn:hover{
-     background-color: green;
+     background-color: #6b5e5e ;
      /*box-shadow: 0 .1rem .1rem black;*/
 }
 

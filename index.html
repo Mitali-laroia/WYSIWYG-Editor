@@ -23,39 +23,35 @@
         </button>
     
     
-        <button class="tool-items fa fa-bold" onclick="document.execCommand('bold', false, '');">
+        <button class="tool-items fa fa-bold" onclick="document.execCommand('bold', false, '');" >
         </button>
-    
-    
+        <button class="tool-items fa fa-strikethrough" onclick="document.execCommand('strikeThrough',false,'')" style="margin-right: 5px;"></button>
+        <button class="tool-items fa fa-scissors" onclick="document.execCommand('cut',false,'')"></button>
+        <button class="tool-items fa fa-clone" onclick="copy()"  style="margin-right: 5px;"></button>
         <button class="tool-items fa fa-link" onclick="link()">
         </button>
     
-        <button class="tool-items fa fa-scissors" onclick="document.execCommand('cut',false,'')"></button>
+        
     
     
-        <input class="tool-items fa fa-file-image-o" type="file" accept="image/*" id="file" style="display: none;" onchange="getImage()">
+        <input class="tool-items fa fa-file-image-o" type="file" accept="image/*" id="file" style="display: none; border: 1px solid #808080 ;" onchange="getImage()">
     
-        <label for="file" class="tool-items fa fa-file-image-o"></label>
-    
-    
-    
-    
+        <label for="file" class="tool-items fa fa-file-image-o" style=" border: 2px solid #6b5e5e; margin-right: 5px;"></label>
     
         <button class="tool-items fa fa-undo" onclick="document.execCommand('undo',false,'')"></button>
     
-        <button class="tool-items fa fa-repeat" onclick="document.execCommand('redo',false,'')"></button>
+        <button class="tool-items fa fa-repeat" onclick="document.execCommand('redo',false,'')"  style="margin-right: 5px;"></button>
     
         <button class="tool-items fa fa-tint" onclick="changeColor()"></button>
     
-        <button class="tool-items fa fa-strikethrough" onclick="document.execCommand('strikeThrough',false,'')"></button>
-    
+        
         <button class="tool-items fa fa-trash" onclick="document.execCommand('delete',false,'')"></button>
     
     
-        <button class="tool-items fa fa-scribd" onclick="document.execCommand('selectAll',false,'')"></button>
+        <button class="tool-items fa fa-scribd" onclick="document.execCommand('selectAll',false,'')"  style="margin-right: 5px;"></button>
     
     
-        <button class="tool-items fa fa-clone" onclick="copy()"></button>
+        
     
     
     
@@ -67,6 +63,9 @@
     
         <button class="tool-items fa fa-align-left" onclick="document.execCommand('justifyLeft',false,'')"></button>
         <button class="tool-items fa fa-align-right" onclick="document.execCommand('justifyRight',false,'')"></button>
+        <button class="tool-items fa fa-list-ul" onclick="document.execCommand('insertUnorderedList')"></button>
+        <button class="tool-items fa fa-list-ol" onclick="document.execCommand('insertOrderedList')"></button>
+
       </div>
     
       <div class="center">
