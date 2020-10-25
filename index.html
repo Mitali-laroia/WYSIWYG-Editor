@@ -62,14 +62,16 @@
         <button class="tool-items fa fa-align-right" onclick="document.execCommand('justifyRight',false,'')"></button>
         <button class="tool-items fa fa-list-ul" onclick="document.execCommand('insertUnorderedList')"></button>
         <button class="tool-items fa fa-list-ol" onclick="document.execCommand('insertOrderedList')"></button>
-
+        <button class="tool-items fa fa-subscript" onclick="document.execCommand('subscript')";></button>
+        <button class="tool-items fa fa-superscript" onclick="document.execCommand('superscript')";></button>
       </div>
 
       <div class="extra">
       Font Color: <input type="color"onchange="document.execCommand('foreColor',false,this.value);">
       Background: <input type="color" onchange="document.execCommand('hiliteColor',false,this.value);">
 
-      <select onchange="document.execCommand('fontName', false, this.value);">
+      <select onchange="document.execCommand('fontName', false, this.value);" style="height: 20px;">
+        <option selected disabled>font style</option>
         <option value="Arial"> Arial</option>
         <option value="Comic Sans MS">Comic Sans MS</option>
         <option value="Courier">Courier</option>
@@ -80,7 +82,8 @@
         </select>
     
     
-        <select onchange="document.execCommand('fontSize', false,this.value);" style="margin-top: 10px;">
+        <select onchange="document.execCommand('fontSize', false,this.value);" style="margin-top: 10px; height: 20px;">
+          <option selected disabled>font size</option>
           <option value="1"> 1</option>
           <option value="2">2</option>
           <option value="3">3</option>
