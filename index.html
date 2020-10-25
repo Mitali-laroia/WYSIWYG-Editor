@@ -51,30 +51,8 @@
         <button class="tool-items fa fa-scribd" onclick="document.execCommand('selectAll',false,'')"  style="margin-right: 5px;"></button>
     
     
-        <select onchange="document.execCommand('fontName', false, this.value);">
-        <option value="Arial"> Arial</option>
-        <option value="Comic Sans MS">Comic Sans MS</option>
-        <option value="Courier">Courier</option>
-        <option value="Georgia">Georgia</option>
-        <option value="Tahoma">Tahoma</option>
-        <option value="Times New Roman">Times New Roman</option>
-        <option value="Verdana"> Verdana</option>
-        </select>
-    
-    
-        <select onchange="document.execCommand('fontSize', false,this.value);">
-          <option value="1"> 1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7"> 7</option>
-          </select>
+        
       
-    
-          Fore Color: <input type="color" id="mycolor" onchange="document.execCommand('foreColor',false,this.value);">
-          Background: <input type="color" onchange="document.execCommand('hiliteColor',false,this.value);">
         <!-- Justify -->
     
         <button class="tool-items fa fa-align-center" onclick="document.execCommand('justifyCenter',false,'')"></button>
@@ -86,11 +64,36 @@
         <button class="tool-items fa fa-list-ol" onclick="document.execCommand('insertOrderedList')"></button>
 
       </div>
+
+      <div class="extra">
+      Font Color: <input type="color"onchange="document.execCommand('foreColor',false,this.value);">
+      Background: <input type="color" onchange="document.execCommand('hiliteColor',false,this.value);">
+
+      <select onchange="document.execCommand('fontName', false, this.value);">
+        <option value="Arial"> Arial</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Courier">Courier</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Tahoma">Tahoma</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Verdana"> Verdana</option>
+        </select>
     
+    
+        <select onchange="document.execCommand('fontSize', false,this.value);" style="margin-top: 10px;">
+          <option value="1"> 1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7"> 7</option>
+          </select>
+      </div>
       <div class="center">
         <div class="editor" contenteditable>
-          <h1>Simple Html editor</h1>
-          <p>Good to start</p>
+          <h1>WYSIWYG Html editor</h1>
+          <p>"What You See Is What You Get"</p>
         </div>
       </div>
     
@@ -98,8 +101,7 @@
     
         <button class="sai btn">GetHtml</button>
         <button class="getText btn">GetText</button>
-        <button class="btn
-    print" onclick="printMe()">PrintHtml</button>
+        <button class="btn print" onclick="printMe()">PrintHtml</button>
       </div>
     
     
