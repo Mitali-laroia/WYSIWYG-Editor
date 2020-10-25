@@ -15,6 +15,10 @@ getText.addEventListener("click", function() {
   content.textContent = old;
 });
 
+function execCommandWithArg(command, arg) {
+  richTextField.document.execCommand(command, false, arg);
+}
+
 function link() {
   var url = prompt("Enter the URL");
   document.execCommand("createLink", false, url);
@@ -25,7 +29,7 @@ function copy() {
 }
 
 function changeColor() {
-  var color = prompt("Enter your color in hex ex:#f1f233");
+  var color = document.getElementById("mycolor").value;
   document.execCommand("foreColor", false, color);
 }
 
