@@ -14,8 +14,21 @@
  * CSS3
  * JavaScript (document.execCommand is the soul of the editor)
  
+ # Mentee
+ Mentee Name : Mitali Laroia
+ GitHub profile: https://github.com/Mitali-laroia
+ 
+ # Mentor
+ Mentor Name: Divyasha Singh
+ Github profile: https://github.com/divyasha2013
+ 
+ # Get Started
+ Open index.html in your browser ( make sure JavaScript is on in case of chrome)
+ 
  # Screenshot
  ![Screenshot (298)](https://user-images.githubusercontent.com/54024297/97108383-3e1ec500-16f3-11eb-929c-d377deeaff4a.png)
+ 
+ 
 
  
  
