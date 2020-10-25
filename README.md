@@ -15,6 +15,7 @@
  * JavaScript (document.execCommand is the soul of the editor)
  
  # Screenshot
- ![screenshot](Screenshot(298).png)
+ ![Screenshot (298)](https://user-images.githubusercontent.com/54024297/97108383-3e1ec500-16f3-11eb-929c-d377deeaff4a.png)
+
  
  
