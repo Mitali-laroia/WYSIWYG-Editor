@@ -15,6 +15,6 @@
  * JavaScript (document.execCommand is the soul of the editor)
  
  # Screenshot
- ![screenshot](Screenshot (298).png)
+ ![screenshot](Screenshot(298).png)
  
  
